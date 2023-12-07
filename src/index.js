@@ -1,4 +1,5 @@
-import { NotificationsContext as NotificationsContextNk, NotificationsProvider as NotificationsProviderNk } from 'Notifications';
+import * as React from "react";
+import { NotificationsContext as NotificationsContextNk, NotificationsProvider as NotificationsProviderNk } from './Notifications';
 import "./index.css";
 
 export const NotificationsContext = NotificationsContextNk;
